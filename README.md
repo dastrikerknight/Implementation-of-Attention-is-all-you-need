@@ -10,7 +10,7 @@ The model translates between **English** and **German** using the **Multi30k** d
 The Transformer architecture replaces recurrent and convolutional structures with pure **self-attention**, enabling faster training and better handling of long-range dependencies.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/asyml/texar-pytorch/master/docs/_static/img/transformer.png" width="700"/>
+  <img src="https://caisplusplus.usc.edu/curriculum/neural-network-flavors/transformers" width="700" alt="Transformer architecture"/>
 </p>
 
 *Figure: The Transformer architecture, showing the encoder-decoder structure and attention mechanisms.*
