@@ -1,9 +1,7 @@
 # Implementation-of-Attention-is-all-you-need
 
-# Transformer-Based Neural Machine Translation (NMT) with PyTorch
-
 ## 📌 Introduction
-This repository implements a **Transformer** model for Neural Machine Translation (NMT) based on the seminal paper:
+This repository implements a **Transformer** model from the seminal paper:
 
 > **"Attention Is All You Need"** – Vaswani et al., 2017  
 > https://arxiv.org/abs/1706.03762
@@ -92,7 +90,3 @@ These results confirm the implementation is **functionally correct**.
 
 ---
 
-## 🚀 How to Run
-1. **Install dependencies**:
-```bash
-pip install torch torchtext sentencepiece tqdm
