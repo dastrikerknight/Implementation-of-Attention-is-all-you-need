@@ -50,6 +50,17 @@ The Transformer is composed of:
 
 ---
 
+
+##Total Parameters
+| Layer            | Value   |
+|------------------|---------|
+|  **Embeddings**  | 0.1M  |
+|  **Encoder**     | 18.9M   |
+|  **Decoder**     | 25.2M   |
+|  **Output**      | 0.05M   |
+
+---
+
 ## 📦 Packages Used
 | Package         | Usage |
 |-----------------|-------|
