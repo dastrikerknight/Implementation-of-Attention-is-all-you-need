@@ -1,6 +1,6 @@
 # Implementation-of-Attention-is-all-you-need
 
-## 📌 Introduction
+## Introduction
 This repository implements a **Transformer** model from the seminal paper:
 
 > **"Attention Is All You Need"** – Vaswani et al., 2017  
@@ -17,7 +17,7 @@ The Transformer architecture replaces recurrent and convolutional structures wit
 
 ---
 
-## 🧠 How the Transformer Works (Paper Summary)
+## How the Transformer Works:
 The Transformer is composed of:
 1. **Encoder** – Reads the source sentence and produces context-aware vector representations.  
    - Each encoder layer consists of:
@@ -35,7 +35,7 @@ The Transformer is composed of:
 
 ---
 
-## ⚙️ Hyperparameters
+## Hyperparameters
 | Parameter         | Value     | Description |
 |-------------------|-----------|-------------|
 | `d_model`         | 512       | Embedding size / model hidden size |
@@ -51,7 +51,7 @@ The Transformer is composed of:
 ---
 
 
-##Total Parameters
+## Total Parameters
 | Layer            | Value   |
 |------------------|---------|
 |  **Embeddings**  | 0.1M  |
@@ -61,7 +61,6 @@ The Transformer is composed of:
 
 ---
 
-## 📦 Packages Used
 | Package         | Usage |
 |-----------------|-------|
 | **torch**       | Core deep learning framework (model, training loop, GPU acceleration) |
@@ -73,7 +72,7 @@ The Transformer is composed of:
 
 ---
 
-## 🚫 Computational Limitation
+## Computational Limitation
 Training a Transformer from scratch on **Multi30k** with a **T4 GPU** (as provided by Google Colab free tier) is computationally demanding:
 - The **T4 GPU** in free Colab sessions offers **~12 GB VRAM** and **~12 hours max runtime**.
 - A full Transformer (6-layer encoder/decoder, `d_model=512`) requires **several days** of training for convergence even on small datasets like Multi30k.
@@ -85,7 +84,7 @@ Instead, a **dummy dataset test** was used to validate the full pipeline.
 
 ---
 
-## 🧪 Dummy Test Results
+## Dummy Test Results
 A small **synthetic dataset** was used to ensure that:
 - Data loading, tokenization, batching, and masks work correctly
 - Model forward/backward pass runs without shape errors
@@ -97,7 +96,7 @@ A small **synthetic dataset** was used to ensure that:
 | Train Loss   | **2.53** |
 | Validation Loss | **2.76** |
 
-These results confirm the implementation is **functionally correct**.
+These results confirm the implementation is functionally correct.
 
 ---
 
